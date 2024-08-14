@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.supplychain.smoketest.SmokeScenario">
+        <methods>
+          <include name="addDistributorwithvalidname"/>
+          <include name="addAndeditManufacturerWithName"/>
+          <include name="configAS"/>
+          <include name="addProductwithmaxAllowedCaharacters"/>
+          <include name="configBS"/>
+          <include name="addAndeditManufacturerwithAddress"/>
+          <include name="addRetailerwithvalidName"/>
+          <include name="updateProductname"/>
+          <include name="addProductwithValidName"/>
+          <include name="configAC"/>
+          <include name="addProductwithValidDropdownSelection"/>
+          <include name="addProductwithAlphanumericvalues"/>
+          <include name="configAM"/>
+          <include name="addProductwithValidEnableRadioButton"/>
+          <include name="configBM"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.supplychain.smoketest.SmokeScenario -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
